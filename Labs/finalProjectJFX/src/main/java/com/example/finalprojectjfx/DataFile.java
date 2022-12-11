@@ -1,11 +1,9 @@
+package com.example.finalprojectjfx;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.File;
-
-
-
 public class DataFile {
     public File dir;
     public File input;

@@ -1,3 +1,5 @@
+package com.example.finalprojectjfx;
+
 public class Snack extends Item{
     private float weight;
     private boolean containsNuts;

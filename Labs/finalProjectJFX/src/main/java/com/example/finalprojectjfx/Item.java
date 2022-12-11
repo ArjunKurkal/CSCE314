@@ -1,3 +1,5 @@
+package com.example.finalprojectjfx;
+
 public class Item {
     private String Name;
     private float Calories;

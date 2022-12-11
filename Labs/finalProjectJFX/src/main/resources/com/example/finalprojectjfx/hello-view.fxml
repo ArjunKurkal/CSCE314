@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.finalprojectjfx.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<VBox alignment="CENTER" prefHeight="278.0" prefWidth="608.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.finalprojectjfx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="222.0" prefWidth="568.0">
+      <children>
+         <Label layoutX="176.0" text="Vending Machine">
+            <font>
+               <Font size="28.0" />
+            </font>
+         </Label>
+         <Button fx:id="Slot1" layoutX="18.0" layoutY="86.0" mnemonicParsing="false" onAction="#onButton1Press" text="Slot1" />
+         <Button fx:id="Slot2" layoutX="84.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButton2Press" text="Slot2" />
+         <Button fx:id="Slot3" layoutX="154.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButton3Press" text="Slot3" />
+         <Button fx:id="Slot4" layoutX="224.0" layoutY="86.0" mnemonicParsing="false" onAction="#onButton4Press" text="Slot4" />
+         <Button fx:id="Slot5" layoutX="294.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButton5Press" text="Slot5" />
+         <Button fx:id="Slot6" layoutX="363.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButton6Press" text="Slot6" />
+         <Button fx:id="Slot7" layoutX="434.0" layoutY="86.0" mnemonicParsing="false" onAction="#onButton7Press" text="Slot7" />
+         <Button fx:id="Slot8" layoutX="506.0" layoutY="85.0" mnemonicParsing="false" onAction="#onButton8Press" text="Slot8" />
+         <Button fx:id="initiate" layoutX="205.0" layoutY="40.0" mnemonicParsing="false" onAction="#onLaunch" text="Start / Reset Vending Machine" />
+         <Label fx:id="tag1" layoutX="16.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag2" layoutX="82.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag3" layoutX="152.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag4" layoutX="222.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag5" layoutX="292.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag6" layoutX="359.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag7" layoutX="432.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+         <Label fx:id="tag8" layoutX="504.0" layoutY="127.0" text="Quantity" textAlignment="CENTER" />
+      </children>
+   </AnchorPane>
+
+    <Label fx:id="welcomeText" />
 </VBox>
