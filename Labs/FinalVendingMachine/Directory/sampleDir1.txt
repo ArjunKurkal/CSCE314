@@ -1,0 +1,8 @@
+Drink, Coca-Cola, 120, 16, soda, 9
+Drink, Coca-Cola, 120, 16, soda, 6
+Drink, Coca-Cola, 120, 16, soda, 4
+Drink, Coca-Cola, 120, 16, soda, 5
+Drink, Coca-Cola, 120, 16, soda, 10
+Drink, Coca-Cola, 120, 16, soda, 11
+Drink, Coca-Cola, 120, 16, soda, 8
+Drink, Coca-Cola, 120, 16, soda, 4
